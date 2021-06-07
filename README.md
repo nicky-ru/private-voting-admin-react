@@ -2,6 +2,7 @@
 
 This is the second part of the whole project - Private Voting with Zokrates.
 Only the contract creator can apply changes and call functions in the current website.
+Link to the website (Rinkeby testnet): https://000e3br21g2qaj1m2kqv5rho885kvbmk83iaflub28d0opfdl9lupco.siasky.net/
 
 ## Step 1
 
