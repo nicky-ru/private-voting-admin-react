@@ -1,0 +1,16 @@
+#header-container {
+    margin-top: 25px;
+}
+
+#workflow-button-row button {
+    width: 100%;
+    min-height: 75px;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+#header-row .input-group {
+
+}
