@@ -1,6 +1,3 @@
-import React from 'react';
-import '../assets/bootstrap/css/bootstrap.min.css';
-import '../assets/css/styles.css';
 import WorkflowButtonsComponent from "./WorkflowButtonsComponent";
 
 function Header(props) {

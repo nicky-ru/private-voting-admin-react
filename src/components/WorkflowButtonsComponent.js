@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import privateVoting from "../privateVoting";
-import '../assets/bootstrap/css/bootstrap.min.css';
-import '../assets/css/styles.css';
 
 class WorkflowButtonsComponent extends Component {
     startVotersRegistration = async (event) => {
