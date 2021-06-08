@@ -9,7 +9,7 @@ import VoterRegistrationComponent from "./components/VoterRegistrationComponent"
 import CandidateRegistrationComponent from "./components/CandidateRegistrationComponent";
 import SecretHashesComponent from "./components/SecretHashesComponent";
 import GeneratorVerificationComponent from "./components/GeneratorVerificationComponent";
-import HeaderComponent from "./components/HeaderComponent";
+import Header from "./components/Header";
 
 class App extends Component {
   state = {
@@ -95,7 +95,7 @@ class App extends Component {
     return(
         <div>
 
-          <HeaderComponent
+          <Header
               administrator={this.state.administrator}
               currentUser={this.state.currentUser}
               workflowStatusDescription={this.state.workflowStatusDescription}
