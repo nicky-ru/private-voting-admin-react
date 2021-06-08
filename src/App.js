@@ -24,7 +24,6 @@ class App extends Component {
     const administrator = await privateVoting.methods.administrator().call();
     this.startRefreshAccount();
 
-    // subscribe to registering events: Election, Voter, Candidate
     privateVoting.events.WorkflowStatusChangeEvent(async (error, event) => {
       if (!error) {
         await this.refreshWorkflowStatus();
